@@ -1,12 +1,16 @@
-tall = 2
-tall_2 = 344444444
+tall = 2232321
+tall_2 = 344444444232
 
 def summerer(tall, tall_2):
     return tall**2 + tall_2**5
     
 kojkojod
 print(summerer(tall, tall_2))
+<<<<<<< Updated upstream
 kfoewpjfwe
 ddd
 
 print("Hello World")
+=======
+kfoewpjfwedddddd
+>>>>>>> Stashed changes
