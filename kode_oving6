@@ -1,8 +1,28 @@
-tall = 2
-tall_2 = 3
+import turtle
 
-def summerer(tall, tall_2):
-    return tall**2 + tall_2**5
+antall = int(input("Antall diamanter: "))
+lengde = 100
+y = 0
+
+def diamant(antall, lengde, y):
+    for i in range(antall):
+        turtle.penup()
+        turtle.goto(0,y)
+        turtle.pendown()
+        
+        
+        turtle.right(45)
+        for i in range(4):
+            turtle.forward(lengde)
+            turtle.right(90)
+        turtle.left(45)
+        
+        lengde += 100
+        y += 70
     
+turtle.speed(6)
+diamant(antall, lengde, y)
+turtle.done()
 
-print(summerer(tall, tall_2))
+
+
