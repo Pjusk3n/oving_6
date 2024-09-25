@@ -6,3 +6,6 @@ def summerer(tall, tall_2):
     
 
 print(summerer(tall, tall_2))
+def yeye(uouo):
+    for _ in range(6500000):
+        print("Hello world")
